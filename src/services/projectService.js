@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/projects";
+const API_URL = "https://task-tracker-backend-539m.onrender.com/api/projects";
 
 const getToken = () => localStorage.getItem("token");
 
